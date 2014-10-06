@@ -10,8 +10,7 @@ import org.faabtech.brainfuck.BrainfuckEngine;
 
 /**
  * The {@link YoEngine} is an implementation for the
- * <code>brainfuck<code> dialect
- * 	<code>Yo!</code>.
+ * <code>brainfuck</code> dialect <code>Yo!</code>.
  * 
  * @author Christian P.
  */
@@ -37,8 +36,7 @@ public class YoEngine extends BrainfuckEngine {
 	/**
 	 * Constructs a new {@link YoEngine} instance.
 	 * 
-	 * @param cells
-	 *            The amount of memory cells.
+	 * @param cells The amount of memory cells.
 	 */
 	public YoEngine(int cells) {
 		this(cells, new PrintStream(System.out), System.in);

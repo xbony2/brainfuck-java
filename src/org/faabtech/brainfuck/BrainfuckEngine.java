@@ -157,15 +157,13 @@ public class BrainfuckEngine {
 	/**
 	 * Interprets the given char
 	 * 
-	 * @param c
-	 *            The char to interpret.
+	 * @param c The char to interpret.
 	 * @throws Exception
 	 */
 	protected void interpret(char c, char[] chars) throws Exception {
 		switch (c) {
 		case Token.NEXT:
-			// increment the data pointer (to point to the next cell to the
-			// right).
+			// increment the data pointer (to point to the next cell to the right).
 			if ((dataPointer + 1) > data.length) {
 				throw new Exception("Error on line " + lineCount + ", column " + columnCount + ":" 
 						+ "data pointer (" + dataPointer

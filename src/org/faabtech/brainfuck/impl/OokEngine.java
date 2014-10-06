@@ -8,8 +8,7 @@ import java.util.List;
 
 /**
  * The {@link OokEngine} is an implementation for the
- * <code>brainfuck<code> dialect
- * 	<code>Ook!</code>.
+ * <code>brainfuck</code> dialect <code>Ook!</code>.
  * 
  * @author Fabian M.
  */
@@ -110,8 +109,7 @@ public class OokEngine extends TrollScriptEngine {
 				// The string we found.
 				token = str.substring(charPointer, charPointer + defaultTokenLength);
 			else
-				token = str.substring(charPointer, charPointer
-						+ (str.length() - charPointer));
+				token = str.substring(charPointer, charPointer + (str.length() - charPointer));
 			
 			boolean b = false;
 			

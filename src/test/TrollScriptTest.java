@@ -6,7 +6,7 @@ import org.faabtech.brainfuck.impl.TrollScriptEngine;
 
 public class TrollScriptTest {
 	
-	private static final String FILE_LOCATION = "samples/hello_world.troll";
+	private static final String FILE_LOCATION = "samples/trollscript/troll_art.troll";
 
 	/**
 	 * To change the file location or name, just change the string FILE_lOCATION in this class.

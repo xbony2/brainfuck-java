@@ -30,7 +30,7 @@ Languages supported.
 * Ook!
 * yo!lang
 
-Coming soon
+Planned
 ---------------
 * COW
 * Blub

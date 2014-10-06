@@ -93,8 +93,7 @@ public class OokEngine extends TrollScriptEngine {
 	/**
 	 * Interprets the given string.
 	 * 
-	 * @param str
-	 *            The string to interpret.
+	 * @param str The string to interpret.
 	 * @throws Exception
 	 */
 	@Override

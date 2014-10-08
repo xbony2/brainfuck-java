@@ -1,0 +1,7 @@
+This file gives information about the samples provide in this directory.
+Just to note, none of these were created by me unless otherwise stated.
+-hello_world.bf: prints "Hello World!" to the console.
+-cat.bf: asks for input, and then returns what you had inputed; an echo program
+-self_interpreter.bf: this is a self-interpreter made by Daniel B. Cristofani. More information 
+    here: http://www.hevanet.com/cristofd/brainfuck/dbfi.b I recommend not looking over if you are
+    looking for something basic to start with, it may be a little bit confusing.

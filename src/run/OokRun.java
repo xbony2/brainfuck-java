@@ -1,14 +1,14 @@
-package test;
+package run;
 
 import java.io.File;
 
-import org.faabtech.brainfuck.BrainfuckEngine;
+import org.faabtech.brainfuck.impl.OokEngine;
 
 
-public class BrainfuckTest {
+public class OokRun {
 	
-	private static final String FILE_LOCATION = "samples/brainfuck/hello_world.bf";
-	
+	private static final String FILE_LOCATION = "samples/ook/hello_world.ook";
+
 	/**
 	 * To change the file location or name, just change the string FILE_lOCATION in this class.
 	 * 
@@ -16,7 +16,7 @@ public class BrainfuckTest {
 	 * @throws Exception if the file location is invalid
 	 */
 	public static void main(String[] args) throws Exception {
-		new BrainfuckEngine(30000).interpret(new File(FILE_LOCATION));
+		new OokEngine(30000).interpret(new File(FILE_LOCATION));
 	}
 
 }

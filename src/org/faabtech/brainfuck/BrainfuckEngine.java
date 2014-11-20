@@ -194,12 +194,12 @@ public class BrainfuckEngine {
 			break;
 		case Token.MINUS:
 			// decrement (decrease by one) the byte at the data pointer.
-			/*if ((data[dataPointer] - 1) < 0) {
+			if ((data[dataPointer] - 1) < 0) {
 				throw new Exception("Error on line " + lineCount + ", column " + columnCount + ":" 
 						+ "at data pointer " + dataPointer
 						+ " on postion " + charPointer
 						+ ": Value can not be lower than zero.");
-			}*/
+			}
 			data[dataPointer]--;
 			break;
 		case Token.OUTPUT:

@@ -7,7 +7,7 @@ Languages supported.
 ----------------
 * Brainfuck original.
 * TrollScript
-* Ook! (Currently work in progress)
+* Ook!
 * yo!lang
 
 Planned

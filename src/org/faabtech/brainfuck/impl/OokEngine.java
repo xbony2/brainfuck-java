@@ -18,6 +18,7 @@ public class OokEngine extends TrollScriptEngine {
 	 * The default length of a token.
 	 */
 	protected int defaultTokenLength = 9;
+	
 	/**
 	 * The {@link Token} enum contains tokens of <code>Ook!</code>.
 	 * 
@@ -134,7 +135,6 @@ public class OokEngine extends TrollScriptEngine {
 		// Loop through all tokens.
 		for (int tokenPointer = 0; tokenPointer < tokens.size(); ) {
 			Token token = tokens.get(tokenPointer);
-			System.out.println(token);
 			switch(token) {
 			case NEXT:
 				// increment the data pointer (to point to the next cell
@@ -160,9 +160,9 @@ public class OokEngine extends TrollScriptEngine {
 				break;
 			case OUTPUT:
 				// Output the byte at the current index in a character.
-				//outWriter.write((char) data[dataPointer]);
+				outWriter.write((char) data[dataPointer]);
 				// Flush the outputstream.
-				//outWriter.flush();
+				outWriter.flush();
 				break;
 			case INPUT:
 				// accept one byte of input, storing its value in the

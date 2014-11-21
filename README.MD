@@ -12,6 +12,5 @@ Languages supported.
 
 Planned
 ---------------
-* COW
 * Blub
-* Pi
+* Top secret! :P

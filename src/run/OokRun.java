@@ -7,7 +7,7 @@ import org.faabtech.brainfuck.impl.OokEngine;
 
 public class OokRun {
 	
-	private static final String FILE_LOCATION = "samples/ook/hello_world.ook";
+	private static final String FILE_LOCATION = "samples/ook/cat.ook";
 
 	/**
 	 * To change the file location or name, just change the string FILE_lOCATION in this class.

@@ -16,54 +16,23 @@ import java.io.PrintStream;
  */
 public class BrainfuckEngine {
 	
-	/**
-	 * The memory thats available for this <code>brainfuck</code> program.
-	 */
 	protected byte[] data;
 
-	/**
-	 * The data pointer that points to the current index in the {@link BrainfuckEngine#data} memory array.
-	 */
 	protected int dataPointer = 0;
 
-	/**
-	 * The character pointer that points to the current index of the character array
-	 * 	of value of its file or string.
-	 */
 	protected int charPointer = 0;
 
-	/**
-	 * The {@link BrainfuckEngine#fileReader} allows use to read from a file if one is specified.
-	 */
 	protected BufferedReader fileReader;
 
-	/**
-	 * The {@link BrainfuckEngine#consoleReader} allows us to read from the console for the ',' keyword.
-	 */
 	protected InputStreamReader consoleReader;
 
-	/**
-	 * The {@link BrainfuckEngine#outWriter} allows us to write to the console.
-	 */
 	protected OutputStream outWriter;
-	
-	/**
-	 * The current line the engine is at.
-	 */
+
 	protected int lineCount = 0;
 
-	/**
-	 * The current column the engine is at. 
-	 */
 	protected int columnCount = 0;
-	
-	/**
-	 * The {@link Token} class contains tokens in <code>brainfuck</code>.
-	 * 
-	 * @author Fabian M.
-	 */
+
 	protected static class Token {
-		
 		public final static char NEXT = '>';
 		public final static char PREVIOUS = '<';
 		public final static char PLUS = '+';
